@@ -67,7 +67,7 @@ export default function Home() {
         <button className={`rounded-lg p-2 text-[#FEF7EE] ${ currentFilter === 'all' ? 'bg-[#6F757C]':'hover:bg-[#6F757C]' }  `}  onClick={handleAllProduct} >All Products</button>
         <button className={`rounded-lg p-2 text-[#FEF7EE] ${ currentFilter === 'available' ? 'bg-[#6F757C]':'hover:bg-[#6F757C]' }  `}  onClick={handleAvailableProduct}  >Available Now</button>
        </div>
-       <div className=" grid justify-self-center grid-cols-1 mt-3 gap-4 md:grid-cols-3 md:mt-6 " >
+       <div className=" grid justify-self-center grid-cols-1 mt-3 gap-4 gap-y-12 md:grid-cols-3 md:mt-14 " >
        <CardProduct products={displayedProducts} />
        </div>
     </div>
