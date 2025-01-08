@@ -54,10 +54,10 @@ export default function Home() {
 
   return (
    <div className=" flex justify-center  " >
-    <picture className=" absolute top-0 left-0 w-full h-[280px] -z-10  ">
+    <picture className=" absolute top-0 left-0 w-full h-[310px] -z-10  ">
       <Image alt="" src={"/bg-cafe-sm.jpg"} fill />
     </picture>
-    <div className=" p-7 bg-[#1B1D1F] rounded-lg  my-8 mx-4 md:mt-32  text-center relative z-10 w-[1024px]  " >
+    <div className=" p-7 bg-[#1B1D1F] rounded-lg  my-8 mx-4 md:mt-40  text-center relative z-10 w-[1024px]  " >
        <picture className=" absolute top-0 left-0 w-full h-[200px] -z-10 " >
         <Image alt="" src={"/vector.svg"} fill />
        </picture>
