@@ -30,7 +30,7 @@ export default function CardProduct( { products  }: CardProductProps  ) {
         </picture>
         <div className=" space-y-2 ">
           <div className="flex justify-between mt-4 items-center">
-            <p className="font-bold">{product.name}</p>
+            <p className="font-bold text-[#FEF7EE]">{product.name}</p>
             <p className="bg-[#BEE3CC] p-1 px-2 rounded-md text-[#111315] text-[12px] font-semibold">{product.price}</p>
           </div>
           <div className="flex items-center space-x-2 justify-between text-[14px]">
@@ -41,7 +41,7 @@ export default function CardProduct( { products  }: CardProductProps  ) {
                <p className=" text-[#4D5562] " >No Ratings</p></>  ):(
                 <>
                 <Image alt="Star rating" src="/Star_fill.svg" width={20} height={20} />
-                <p>{product.rating}</p>
+                <p className=" text-[#FEF7EE] " >{product.rating}</p>
                 <p className="text-[#4D5562]">({ product.votes } votes)</p>
                 </>
                 )  }
